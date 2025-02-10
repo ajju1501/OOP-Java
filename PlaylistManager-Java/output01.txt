@@ -1,0 +1,33 @@
+Welcome to the Music Playlist Manager!
+Running Song Tests...
+Test Case 1 Passed.
+Test Case 2 Passed.
+Test Case 3 Passed.
+Test Case 4 Passed.
+Song Tests Completed.
+----------------------------------------------------
+Running Playlist Tests...
+Test Case 1 Passed.
+Test Case 2 Passed.
+Test Case 3 Passed.
+Test Case 4 Passed.
+Playlist Tests Completed.
+----------------------------------------------------
+Running PlaylistManager Tests...
+Test Case 1 Passed.
+Test Case 2 Passed.
+Test Case 3 Passed.
+Test Case 4 Passed.
+PlaylistManager Tests Completed.
+----------------------------------------------------
+Running Complete Extended Integration Test...
+Running Extended Integration Tests...
+Integration Test Scenario 1 Passed.
+Integration Test Scenario 2 Passed.
+Integration Test Scenario 3 Passed.
+Integration Test Scenario 4 Passed.
+Integration Test Scenario 5 Passed.
+Integration Test Scenario 6 Passed.
+Integration Tests Completed.
+----------------------------------------------------
+All tests completed successfully.
