@@ -103,11 +103,11 @@ class Hand {
 
 class Player {
     Hand hand;
-    boolean varstand;
+    boolean standing;
 
     public Player(Hand hand) {
         this.hand = hand;
-        this.varstand = false;
+        this.standing = false;
     }
 
     public void hit(Deck deck) {
@@ -115,7 +115,7 @@ class Player {
     }
 
     public void stand() {
-        this.varstand = true;
+        this.standing = true;
 
     }
 
@@ -214,7 +214,7 @@ class Game {
 
     public void playerTurn(Scanner scanner) {
 
-        if (!player.varstand) {
+        if (!player.standing) {
 
             String nextLine = scanner.nextLine();
             if (nextLine.equals("s")) {
@@ -288,7 +288,7 @@ class Game {
 
         while (scanner.hasNextLine()) {
             playerTurn(scanner);
-            if (player.varstand) {
+            if (player.standing) {
 
                 dealerTurn(scanner);
             }
